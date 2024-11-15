@@ -210,14 +210,14 @@ const UserProfile = (params: any) => {
                 <div className="flex flex-row items-center space-x-2 bg-white px-3 py-2 rounded-lg">
                   <IconMail width={17} height={17} />
                   <p className="text-sm">
-                    {formData.email || "identiFi@gmail.com"}
+                    {formData.email || "DigiMe@gmail.com"}
                   </p>{" "}
                 </div>
                 <div className="flex flex-row items-center space-x-2 bg-white px-3 py-2 rounded-lg">
                   <IconPhone width={17} height={17} />
                   <p className="text-sm">
                     {" "}
-                    {formData.phone_number || "+00 123 456 789"}{" "}
+                    {formData.phone_number || "+91 123456789"}{" "}
                   </p>{" "}
                 </div>
               </div>
@@ -241,7 +241,7 @@ const UserProfile = (params: any) => {
                       </div>
                       <p className="text-xs font-semibold ">
                         {formData.education ||
-                          "Thomas Jeff High School, Stanford University"}
+                          "Princeton University, Stanford University"}
                       </p>
                     </div>
                     <div className="py-2">
@@ -250,7 +250,7 @@ const UserProfile = (params: any) => {
                         <p className="text-sm">Work History</p>
                       </div>
                       <p className="text-xs font-semibold ">
-                        {formData.work_history || "Twitch, Google, Apple"}
+                        {formData.work_history || "Amazon, Google, Apple"}
                       </p>
                     </div>
                     <div className="py-2">
@@ -259,7 +259,7 @@ const UserProfile = (params: any) => {
                         <p className="text-sm">Join Date</p>
                       </div>
                       <p className="text-xs font-semibold ">
-                        {formData.dateOfBirth || " 2024"}
+                        {formData.dateOfBirth || "2004"}
                       </p>
                     </div>
 
@@ -269,7 +269,7 @@ const UserProfile = (params: any) => {
                         <p className="text-sm">Birthday</p>
                       </div>
                       <p className="text-xs font-semibold ">
-                        {formData.date_of_birth || " 15-08-1990"}
+                        {formData.date_of_birth || "02-12-2004"}
                       </p>
                     </div>
                   </div>

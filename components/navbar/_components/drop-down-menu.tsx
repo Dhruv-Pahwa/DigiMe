@@ -61,7 +61,7 @@ const DropdownMenu: React.FC<DropDownMenuProps> = ({ onClose }) => {
           Home
         </Link>
 
-        <Link
+        {/* <Link
           href={"/jobs"}
           className="
             flex
@@ -75,7 +75,7 @@ const DropdownMenu: React.FC<DropDownMenuProps> = ({ onClose }) => {
             "
         >
           Jobs
-        </Link>
+        </Link> */}
 
         <Link
           href={"/verify-identity"}

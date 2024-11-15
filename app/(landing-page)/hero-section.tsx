@@ -59,20 +59,20 @@ const tabs = [
 
     image: "/assets/CoffeeDoddle.svg",
   },
-  {
-    icon: (
-      <IconBriefcase className="w-8 h-8 mr-2 text-yellow-600 bg-yellow-100 p-1 rounded-md" />
-    ),
-    name: "Find Jobs",
-    description: "Discover developer opportunities.",
-    more: (
-      <div className="text-yellow-600 flex items-center">
-        Learn more <PiArrowRight className="ml-1 text-sm" />
-      </div>
-    ),
+  // {
+  //   icon: (
+  //     <IconBriefcase className="w-8 h-8 mr-2 text-yellow-600 bg-yellow-100 p-1 rounded-md" />
+  //   ),
+  //   name: "Find Jobs",
+  //   description: "Discover developer opportunities.",
+  //   more: (
+  //     <div className="text-yellow-600 flex items-center">
+  //       Learn more <PiArrowRight className="ml-1 text-sm" />
+  //     </div>
+  //   ),
 
-    image: "/assets/RunningDoodle.svg",
-  },
+  //   image: "/assets/RunningDoodle.svg",
+  // },
 ];
 
 const HeroSection = () => {
@@ -115,22 +115,23 @@ const HeroSection = () => {
             "
       >
         Create Once, Identify Everywhere with{" "}
-        <span className="text-sky-500 font-bold">DigiME</span>
+        <span className="to-black font-bold">Digi</span>
+        <span className="text-sky-500 font-bold">ME</span>
       </p>
 
-      <div className="flex gap-4 pt-6 items-center justify-center">
-        {/* <Link href="https://www.youtube.com/"> */}
-        <Link href="/">
-          <Button className="py-1 ">
-            <div className="flex items-center justify-center">
-              <div className="text-lg">Create Identity</div>
-              <div>
-                <PiArrowRight className="ml-2 " />
-              </div>
-            </div>
-          </Button>
-        </Link>
-      </div>
+      <div className="flex flex-col items-center gap-2 pt-6">
+  {/* Link Section */}
+  <Link href="https://en.wikipedia.org/wiki/Digital_identity">
+    <Button className="py-1 px-4 flex items-center justify-center gap-2">
+      <div className="text-lg font-semibold">Learn More about Digital Identity</div>
+      <PiArrowRight className="text-lg" />
+    </Button>
+  </Link>
+
+  {/* Source Section */}
+  <span className="text-sm text-gray-500">(From Wikipedia)</span>
+</div>
+
 
       <div className="pt-10 xl:pt-20 items-center justify-center">
         <Image
