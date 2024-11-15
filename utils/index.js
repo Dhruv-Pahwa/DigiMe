@@ -1,5 +1,5 @@
 import { ethers } from "ethers";
-import identiFi from "./identiFi.json";
+import identiFi from "./IdentiFi.json";
 
 export const contract = async () => {
   const provider = new ethers.providers.Web3Provider(window.ethereum);
